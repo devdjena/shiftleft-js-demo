@@ -8,7 +8,7 @@ module.exports = app => {
   });
   app.get(`/login`, (req, res) => res.render('Login'));
 
-  app.get(`/user-input`, (req, res) => {
+  app.get(`/user-input`, (req, res) => {alert(0)
     /*
       User input vulnerability,
       if the user passes vulnerable javascipt code, its executed in user's browser
